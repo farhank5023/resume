@@ -1,6 +1,6 @@
 body{
     background-color: #111; /*changes background color*/
-    background-image:url(back.jpg);
+    background-image:url(../Images/back.jpg);
     background-size: 100%;
     }
     .container{
@@ -107,9 +107,11 @@ opacity: 0.7;
 .resumeB{
     margin: 10px;
     /*background-color: chartreuse;*/
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
     width:400px;
     height:675px;
     float: right;
+    text-transform: capitalize;
 }
 #title{
         color:black;
@@ -127,4 +129,5 @@ opacity: 0.7;
     }
     .same{
 background-color: #e1f6f0;
+text-transform: uppercase;
     }
